@@ -1,0 +1,14 @@
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Data.deps.json
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Data.dll
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.csproj.CoreCompileInputs.cache
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.AssemblyInfoInputs.cache
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.AssemblyInfo.cs
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.csprojAssemblyReference.cache
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Code.dll
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Data.runtimeconfig.json
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Data.runtimeconfig.dev.json
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Data.pdb
+G:\NFine\NFine\NFine.Data\bin\Debug\netcoreapp2.1\NFine.Code.pdb
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.csproj.CopyComplete
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.dll
+G:\NFine\NFine\NFine.Data\obj\Debug\netcoreapp2.1\NFine.Data.pdb

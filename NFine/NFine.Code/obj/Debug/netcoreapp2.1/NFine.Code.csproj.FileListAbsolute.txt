@@ -1,0 +1,8 @@
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.csproj.CoreCompileInputs.cache
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.AssemblyInfoInputs.cache
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.AssemblyInfo.cs
+G:\NFine\NFine\NFine.Code\bin\Debug\netcoreapp2.1\NFine.Code.deps.json
+G:\NFine\NFine\NFine.Code\bin\Debug\netcoreapp2.1\NFine.Code.dll
+G:\NFine\NFine\NFine.Code\bin\Debug\netcoreapp2.1\NFine.Code.pdb
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.dll
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.pdb

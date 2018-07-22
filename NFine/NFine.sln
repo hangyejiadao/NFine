@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrustructure", "Infrustructure", "{EBC1CD96-8733-49EA-96BC-35E4223D140C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Code", "NFine.Code\NFine.Code.csproj", "{20B45591-546A-4F9B-BE0F-C05D19C5C95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Data", "NFine.Data\NFine.Data.csproj", "{4937B6A0-E860-46B6-AC9D-AEFB78B34175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B45591-546A-4F9B-BE0F-C05D19C5C95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B45591-546A-4F9B-BE0F-C05D19C5C95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B45591-546A-4F9B-BE0F-C05D19C5C95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B45591-546A-4F9B-BE0F-C05D19C5C95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4937B6A0-E860-46B6-AC9D-AEFB78B34175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4937B6A0-E860-46B6-AC9D-AEFB78B34175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4937B6A0-E860-46B6-AC9D-AEFB78B34175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4937B6A0-E860-46B6-AC9D-AEFB78B34175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20B45591-546A-4F9B-BE0F-C05D19C5C95A} = {EBC1CD96-8733-49EA-96BC-35E4223D140C}
+		{4937B6A0-E860-46B6-AC9D-AEFB78B34175} = {EBC1CD96-8733-49EA-96BC-35E4223D140C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D7A2AAE-DB3C-4A62-9B08-E6787F0EA952}
+	EndGlobalSection
+EndGlobal
