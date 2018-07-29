@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrustructure", "Infrustructure", "{EBC1CD96-8733-49EA-96BC-35E4223D140C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common Infrustructure", "Common Infrustructure", "{EBC1CD96-8733-49EA-96BC-35E4223D140C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Code", "NFine.Code\NFine.Code.csproj", "{20B45591-546A-4F9B-BE0F-C05D19C5C95A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFine.Code", "NFine.Code\NFine.Code.csproj", "{20B45591-546A-4F9B-BE0F-C05D19C5C95A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Data", "NFine.Data\NFine.Data.csproj", "{4937B6A0-E860-46B6-AC9D-AEFB78B34175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFine.Data", "NFine.Data\NFine.Data.csproj", "{4937B6A0-E860-46B6-AC9D-AEFB78B34175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Web", "NFine.Web\NFine.Web.csproj", "{FAEA67B5-0E64-4AAA-92AD-C4173471F6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFine.Web", "NFine.Web\NFine.Web.csproj", "{FAEA67B5-0E64-4AAA-92AD-C4173471F6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Domain", "NFine.Domain\NFine.Domain.csproj", "{46297018-A901-45B1-BBA2-6CA94D0994D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NFine.Domain", "NFine.Domain\NFine.Domain.csproj", "{46297018-A901-45B1-BBA2-6CA94D0994D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainApplication", "DomainApplication", "{DC6C5D8F-18A3-4C6D-ACA6-F48F6AD3DE80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{20B45591-546A-4F9B-BE0F-C05D19C5C95A} = {EBC1CD96-8733-49EA-96BC-35E4223D140C}
 		{4937B6A0-E860-46B6-AC9D-AEFB78B34175} = {EBC1CD96-8733-49EA-96BC-35E4223D140C}
+		{46297018-A901-45B1-BBA2-6CA94D0994D3} = {DC6C5D8F-18A3-4C6D-ACA6-F48F6AD3DE80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D7A2AAE-DB3C-4A62-9B08-E6787F0EA952}
