@@ -7,41 +7,44 @@
 using System;
 using System.Collections;
 using System.Web;
+using Microsoft.Extensions.Caching.Memory;
 
 
 namespace NFine.Code
 {
-    //public class Cache : ICache
-    //{
-    //    private static System.Web.Caching.Cache cache = HttpRuntime.Cache;
+    public class Cache : ICache
+    {
+        protected IMemoryCache cache;
 
-    //    public T GetCache<T>(string cacheKey) where T : class
-    //    {
-    //        if (cache[cacheKey] != null)
-    //        {
-    //            return (T)cache[cacheKey];
-    //        }
-    //        return default(T);
-    //    }
-    //    public void WriteCache<T>(T value, string cacheKey) where T : class
-    //    {
-    //        cache.Insert(cacheKey, value, null, DateTime.Now.AddMinutes(10), System.Web.Caching.Cache.NoSlidingExpiration);
-    //    }
-    //    public void WriteCache<T>(T value, string cacheKey, DateTime expireTime) where T : class
-    //    {
-    //        cache.Insert(cacheKey, value, null, expireTime, System.Web.Caching.Cache.NoSlidingExpiration);
-    //    }
-    //    public void RemoveCache(string cacheKey)
-    //    {
-    //        cache.Remove(cacheKey);
-    //    }
-    //    public void RemoveCache()
-    //    {
-    //        IDictionaryEnumerator CacheEnum = cache.GetEnumerator();
-    //        while (CacheEnum.MoveNext())
-    //        {
-    //            cache.Remove(CacheEnum.Key.ToString());
-    //        }
-    //    }
-    //}
+        public Cache(IMemoryCache _cache)
+        {
+            cache = _cache;
+        }
+
+
+        public T GetCache<T>(string cacheKey) where T : class
+        {
+            if (cache.Get(cacheKey) != null)
+            {
+                return (T)cache.Get(cacheKey);
+            }
+            return default(T);
+        }
+        public void WriteCache<T>(T value, string cacheKey) where T : class
+        {
+            cache.Set(cacheKey, value, TimeSpan.FromMinutes(10));
+        }
+        public void WriteCache<T>(T value, string cacheKey, DateTime expireTime) where T : class
+        {
+            cache.Set(cacheKey, value, expireTime - DateTime.Now);
+        }
+        public void RemoveCache(string cacheKey)
+        {
+            cache.Remove(cacheKey);
+        }
+        public void RemoveCache()
+        {
+            cache.Dispose();
+        }
+    }
 }

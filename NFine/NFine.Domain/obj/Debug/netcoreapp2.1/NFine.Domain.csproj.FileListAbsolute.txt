@@ -1,0 +1,14 @@
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Domain.deps.json
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Domain.dll
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Domain.pdb
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Code.dll
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Data.dll
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Code.pdb
+G:\NFine\NFine\NFine.Domain\bin\Debug\netcoreapp2.1\NFine.Data.pdb
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.csprojAssemblyReference.cache
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.csproj.CoreCompileInputs.cache
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.AssemblyInfoInputs.cache
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.AssemblyInfo.cs
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.csproj.CopyComplete
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.dll
+G:\NFine\NFine\NFine.Domain\obj\Debug\netcoreapp2.1\NFine.Domain.pdb

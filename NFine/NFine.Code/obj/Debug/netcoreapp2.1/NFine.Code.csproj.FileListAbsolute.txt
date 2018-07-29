@@ -6,3 +6,4 @@ G:\NFine\NFine\NFine.Code\bin\Debug\netcoreapp2.1\NFine.Code.dll
 G:\NFine\NFine\NFine.Code\bin\Debug\netcoreapp2.1\NFine.Code.pdb
 G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.dll
 G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.pdb
+G:\NFine\NFine\NFine.Code\obj\Debug\netcoreapp2.1\NFine.Code.csprojAssemblyReference.cache

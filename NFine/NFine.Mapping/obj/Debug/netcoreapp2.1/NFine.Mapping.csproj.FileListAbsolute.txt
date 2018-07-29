@@ -1,0 +1,4 @@
+G:\NFine\NFine\NFine.Mapping\obj\Debug\netcoreapp2.1\NFine.Mapping.csprojAssemblyReference.cache
+G:\NFine\NFine\NFine.Mapping\obj\Debug\netcoreapp2.1\NFine.Mapping.csproj.CoreCompileInputs.cache
+G:\NFine\NFine\NFine.Mapping\obj\Debug\netcoreapp2.1\NFine.Mapping.AssemblyInfoInputs.cache
+G:\NFine\NFine\NFine.Mapping\obj\Debug\netcoreapp2.1\NFine.Mapping.AssemblyInfo.cs

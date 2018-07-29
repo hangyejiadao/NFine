@@ -4,6 +4,7 @@
  * Description: NFine快速开发平台
  * Website：http://www.nfine.cn
 *********************************************************************************/
+using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Data;
 using System.IO;
@@ -14,6 +15,13 @@ namespace NFine.Code
 {
     public class FileHelper
     {
+        private IHostingEnvironment _hostingEnvironment;
+
+        public FileHelper(IHostingEnvironment hostingEnvironment)
+        {
+            _hostingEnvironment = hostingEnvironment;
+        }
+
         #region 检测指定目录是否存在
         /// <summary>
         /// 检测指定目录是否存在
@@ -235,13 +243,13 @@ namespace NFine.Code
         /// 删除文件
         /// </summary>
         /// <param name="file">要删除的文件路径和名称</param>
-        //public static void DeleteFile(string file)
-        //{
-        //    if (File.Exists(System.Web.HttpContext.Current.Request.PhysicalApplicationPath + file))
-        //    {
-        //        File.Delete(System.Web.HttpContext.Current.Request.PhysicalApplicationPath + file);
-        //    }
-        //}
+        public static   void DeleteFile(string file)
+        {
+            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + file))
+            {
+                File.Delete(AppDomain.CurrentDomain.BaseDirectory + file);
+            }
+        }
         #endregion
 
         #region 创建文件

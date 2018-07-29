@@ -17,20 +17,20 @@ namespace NFine.Code
         /// <param name="str">加密字符</param>
         /// <param name="code">加密位数16/32</param>
         /// <returns></returns>
-        //public static string md5(string str, int code)
-        //{
-        //    string strEncrypt = string.Empty;
-        //    if (code == 16)
-        //    {
-        //        strEncrypt = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(str, "MD5").Substring(8, 16);
-        //    }
+        public static string md5(string str, int code)
+        {
+            string strEncrypt = string.Empty;
+            if (code == 16)
+            {
+              //  strEncrypt = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(str, "MD5").Substring(8, 16);
+            }
 
-        //    if (code == 32)
-        //    {
-        //        strEncrypt = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(str, "MD5");
-        //    }
+            if (code == 32)
+            {
+                //strEncrypt = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(str, "MD5");
+            }
 
-        //    return strEncrypt;
-        //}
+            return strEncrypt;
+        }
     }
 }

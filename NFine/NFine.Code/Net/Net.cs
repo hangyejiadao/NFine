@@ -53,10 +53,7 @@ namespace NFine.Code
         /// <summary>
         /// 获取Web远程Ip
         /// </summary>
-        //private static string GetWebRemoteIp()
-        //{
-        //    return HttpContext.Current.Request.ServerVariables["HTTP_X_FORWARDED_FOR"] ?? HttpContext.Current.Request.ServerVariables["REMOTE_ADDR"];
-        //}
+       
 
         /// <summary>
         /// 获取局域网IP

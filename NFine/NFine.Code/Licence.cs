@@ -6,6 +6,7 @@
 *********************************************************************************/
 using System.Configuration;
 using System.Web;
+using Microsoft.AspNetCore.Http;
 
 namespace NFine.Code
 {
@@ -22,15 +23,15 @@ namespace NFine.Code
 
         //    return false;
         //}
-        //public static string GetLicence()
-        //{
-        //    var licence = Configs.GetValue("LicenceKey");
-        //    if (string.IsNullOrEmpty(licence))
-        //    {
-        //        licence = Common.GuId();
-        //        Configs.SetValue("LicenceKey", licence);
-        //    }
-        //    return Md5.md5(licence, 32);
-        //}
+        public static string GetLicence()
+        {
+            var licence = Configs.GetValue("LicenceKey");
+            if (string.IsNullOrEmpty(licence))
+            {
+                licence = Common.GuId();
+                Configs.SetValue("LicenceKey", licence);
+            }
+            return Md5.md5(licence, 32);
+        }
     }
 }

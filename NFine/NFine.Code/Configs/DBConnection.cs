@@ -19,20 +19,20 @@ namespace NFine.Code
         {
             Encrypt = encrypt;
         }
-        //public static string connectionString
-        //{
-        //    get
-        //    {
-        //        string connection = System.Configuration.ConfigurationManager.ConnectionStrings["NFineDbContext"].ConnectionString;
-        //        if (Encrypt == true)
-        //        {
-        //            return DESEncrypt.Decrypt(connection);
-        //        }
-        //        else
-        //        {
-        //            return connection;
-        //        }
-        //    }
-        //}
+        public static string connectionString
+        {
+            get
+            {
+                string connection = System.Configuration.ConfigurationManager.ConnectionStrings["NFineDbContext"].ConnectionString;
+                if (Encrypt == true)
+                {
+                    return DESEncrypt.Decrypt(connection);
+                }
+                else
+                {
+                    return connection;
+                }
+            }
+        }
     }
 }
