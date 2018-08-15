@@ -29,3 +29,4 @@ G:\NFine\NFine\NFine.Web\obj\Debug\netcoreapp2.1\NFine.Web.Views.pdb
 G:\NFine\NFine\NFine.Web\obj\Debug\netcoreapp2.1\NFine.Web.dll
 G:\NFine\NFine\NFine.Web\obj\Debug\netcoreapp2.1\NFine.Web.pdb
 G:\NFine\NFine\NFine.Web\obj\Debug\netcoreapp2.1\NFine.Web.csproj.CopyComplete
+G:\NFine\NFine\NFine.Web\obj\Debug\netcoreapp2.1\NFine.Web.csprojAssemblyReference.cache
